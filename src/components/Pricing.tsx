@@ -9,7 +9,7 @@ const Pricing = () => {
   const plans = [
     {
       name: "Starter",
-      monthlyPrice: 2,
+      monthlyPrice: 1,
       annualPrice: 20,
       description: "Perfect for small businesses just getting started",
       features: [
@@ -23,20 +23,13 @@ const Pricing = () => {
       popular: false
     },
     {
-      name: "Professional",
-      monthlyPrice: 79,
-      annualPrice: 59,
-      description: "For growing businesses with more subscribers",
+      name: "Remote Worker Always Active",
+      monthlyPrice: 3,
+      annualPrice: 30,
+      description: "For remote workers that want to stay ALWAYS ACTIVE",
       features: [
-        "Up to 10,000 subscribers",
-        "Advanced analytics",
-        "Priority email support",
-        "5 team members",
-        "Custom reports",
-        "API access",
-        "Subscriber segmentation"
+        "Keep your status Always Active on Slack, Teams, Gmail Chat, and other platforms"
       ],
-      buttonText: "Start Free Trial",
       popular: true
     },
     {
@@ -132,9 +125,6 @@ const Pricing = () => {
         </div>
         
         <div className="mt-16 text-center">
-          <p className="text-gray-600 mb-6">
-            All plans include 14-day free trial. No credit card required.
-          </p>
           <a href="#faq" className="text-saas-purple hover:text-saas-purple-dark font-medium">
             Have questions? Check our FAQ
           </a>
