@@ -1,16 +1,12 @@
-
 import { useState } from 'react';
 import { Button } from '@/components/ui/button';
 import { Menu, X } from 'lucide-react';
 import { Link } from 'react-router-dom';
-
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-
-  return (
-    <header className="fixed top-0 left-0 w-full bg-white/90 backdrop-blur-md z-50 py-4 shadow-sm">
+  return <header className="fixed top-0 left-0 w-full bg-white/90 backdrop-blur-md z-50 py-4 shadow-sm">
       <div className="container mx-auto flex justify-between items-center">
-        <Link to="/" className="text-xl font-bold gradient-text">SubscribePro</Link>
+        <Link to="/" className="text-xl font-bold gradient-text">Always Active</Link>
         
         {/* Desktop Navigation */}
         <nav className="hidden md:flex items-center space-x-8">
@@ -37,8 +33,7 @@ const Navbar = () => {
       </div>
       
       {/* Mobile Navigation */}
-      {isMenuOpen && (
-        <div className="md:hidden absolute top-16 left-0 w-full bg-white shadow-lg py-4 animate-fade-in">
+      {isMenuOpen && <div className="md:hidden absolute top-16 left-0 w-full bg-white shadow-lg py-4 animate-fade-in">
           <div className="container mx-auto flex flex-col space-y-4">
             <Link to="/" className="text-gray-700 hover:text-saas-purple transition-colors px-4 py-2" onClick={() => setIsMenuOpen(false)}>Home</Link>
             <a href="#features" className="text-gray-700 hover:text-saas-purple transition-colors px-4 py-2" onClick={() => setIsMenuOpen(false)}>Features</a>
@@ -55,10 +50,7 @@ const Navbar = () => {
               </Button>
             </div>
           </div>
-        </div>
-      )}
-    </header>
-  );
+        </div>}
+    </header>;
 };
-
 export default Navbar;
