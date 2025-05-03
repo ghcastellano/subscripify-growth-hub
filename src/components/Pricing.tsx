@@ -8,54 +8,13 @@ const Pricing = () => {
   
   const plans = [
     {
-      name: "Starter",
+      name: "Always Active Remote Worker",
       monthlyPrice: 2,
       annualPrice: 20,
-      description: "Perfect for small businesses just getting started",
+      description: "For remote workers that want to stay ALWAYS ACTIVE",
       features: [
-        "Up to 500 subscribers",
-        "Basic analytics",
-        "Email support",
-        "1 team member",
-        "Standard reports"
+        "Up to 10,000 subscribers"
       ],
-      buttonText: "Start Free Trial",
-      popular: false
-    },
-    {
-      name: "Professional",
-      monthlyPrice: 79,
-      annualPrice: 59,
-      description: "For growing businesses with more subscribers",
-      features: [
-        "Up to 10,000 subscribers",
-        "Advanced analytics",
-        "Priority email support",
-        "5 team members",
-        "Custom reports",
-        "API access",
-        "Subscriber segmentation"
-      ],
-      buttonText: "Start Free Trial",
-      popular: true
-    },
-    {
-      name: "Enterprise",
-      monthlyPrice: 199,
-      annualPrice: 149,
-      description: "For large organizations with complex needs",
-      features: [
-        "Unlimited subscribers",
-        "Premium analytics",
-        "24/7 phone & email support",
-        "Unlimited team members",
-        "Custom reports & dashboards",
-        "Advanced API access",
-        "Dedicated account manager",
-        "Custom integrations",
-        "SSO authentication"
-      ],
-      buttonText: "Contact Sales",
       popular: false
     }
   ];
