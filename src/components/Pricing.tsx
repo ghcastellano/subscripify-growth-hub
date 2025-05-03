@@ -23,7 +23,7 @@ const Pricing = () => {
       popular: false
     },
     {
-      name: "Remote Worker Always Active",
+      name: "Always Active",
       monthlyPrice: 3,
       annualPrice: 30,
       description: "For remote workers that want to stay ALWAYS ACTIVE",
