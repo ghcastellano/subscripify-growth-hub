@@ -20,7 +20,7 @@ const Pricing = () => {
         "Standard reports"
       ],
       buttonText: "Start Free Trial",
-      popular: false 
+      popular: false
     },
     {
       name: "Professional",
