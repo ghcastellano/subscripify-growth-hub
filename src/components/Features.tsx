@@ -35,19 +35,9 @@ const Features = () => {
       description: "Set your active hours and let AlwaysActive handle the rest, with automatic breaks when needed."
     },
     {
-      icon: <Zap className="h-6 w-6 text-saas-purple" />,
-      title: "Lightweight Client",
-      description: "Our desktop app runs silently in the background with minimal CPU and memory usage."
-    },
-    {
       icon: <Shield className="h-6 w-6 text-saas-purple" />,
       title: "Privacy Focused",
       description: "We never access your messages or personal data - we only simulate mouse movements and keyboard activity."
-    },
-    {
-      icon: <CheckCircle2 className="h-6 w-6 text-saas-purple" />,
-      title: "Easy Setup",
-      description: "Install in minutes with our simple setup wizard. No technical knowledge required."
     }
   ];
 
