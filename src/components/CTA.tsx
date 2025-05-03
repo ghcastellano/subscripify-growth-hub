@@ -1,6 +1,6 @@
 
 import { Button } from "@/components/ui/button";
-import { ArrowRight, Download } from "lucide-react";
+import { ArrowRight, Activity } from "lucide-react";
 import { Link } from "react-router-dom";
 
 const CTA = () => {
@@ -20,16 +20,16 @@ const CTA = () => {
               Start Free Trial
               <ArrowRight className="ml-2 h-5 w-5" />
             </Button>
-            <Link to="/download">
+            <Link to="/stay-active">
               <Button variant="outline" className="border-white text-white hover:bg-white/10 text-lg py-6 px-8">
-                Download Desktop App
-                <Download className="ml-2 h-5 w-5" />
+                Stay Active Now
+                <Activity className="ml-2 h-5 w-5" />
               </Button>
             </Link>
           </div>
           
           <p className="mt-6 text-sm opacity-80">
-            No credit card required. 7-day free trial. Compatible with Windows, macOS, and Linux.
+            No credit card required. 7-day free trial.
           </p>
         </div>
       </div>
