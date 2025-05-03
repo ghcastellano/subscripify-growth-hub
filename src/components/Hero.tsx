@@ -41,29 +41,7 @@ const Hero = () => {
           }}>
               <div className="bg-white rounded-2xl shadow-xl overflow-hidden border border-gray-100">
                 
-                <div className="p-6">
-                  <div className="flex justify-between items-center mb-6">
-                    <h4 className="font-semibold text-lg">Active Time Today</h4>
-                    <span className="text-green-500 font-bold">8h 12m</span>
-                  </div>
-                  <div className="h-24 bg-gray-100 rounded-lg mb-6 flex items-end p-2">
-                    {[65, 75, 90, 85, 95, 80, 70].map((height, i) => <div key={i} className="w-1/7 h-full flex items-end mx-1">
-                        <div className="w-full bg-gradient-to-t from-saas-purple to-saas-purple-light rounded-sm" style={{
-                      height: `${height}%`
-                    }}></div>
-                      </div>)}
-                  </div>
-                  <div className="grid grid-cols-2 gap-4 mb-4">
-                    <div className="bg-gray-50 p-4 rounded-lg">
-                      <p className="text-gray-500 text-sm">Platforms Active</p>
-                      <p className="text-xl font-bold">4</p>
-                    </div>
-                    <div className="bg-gray-50 p-4 rounded-lg">
-                      <p className="text-gray-500 text-sm">Active Since</p>
-                      <p className="text-xl font-bold">8:00 AM</p>
-                    </div>
-                  </div>
-                </div>
+                
               </div>
             </div>
             <div className="absolute -bottom-10 -right-10 w-72 h-72 bg-saas-purple-light/20 rounded-full blur-3xl -z-10"></div>
