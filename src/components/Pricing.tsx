@@ -49,7 +49,7 @@ const Pricing = () => {
         </div>
         
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
-          {plans.map((plan, index) => <div key={index} className={`bg-white rounded-2xl overflow-hidden border ${plan.popular ? 'border-saas-purple shadow-lg scale-105 z-10' : 'border-gray-200 shadow-sm'} transition-all hover:shadow-md`}>
+          {plans.map((plan, index) => <div key={index} className="">
               {plan.popular && <div className="bg-gradient-to-r from-saas-purple to-saas-blue text-white text-center text-sm font-medium py-1">
                   Most Popular
                 </div>}
