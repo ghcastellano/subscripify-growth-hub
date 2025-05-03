@@ -1,5 +1,5 @@
 
-import { CheckCircle2, BarChart3, RefreshCw, CreditCard, Users, ShieldCheck } from "lucide-react";
+import { CheckCircle2, Activity, MessageCircle, Clock, Zap, Shield } from "lucide-react";
 
 type FeatureCardProps = {
   icon: React.ReactNode;
@@ -20,34 +20,34 @@ const FeatureCard = ({ icon, title, description }: FeatureCardProps) => (
 const Features = () => {
   const features = [
     {
-      icon: <CreditCard className="h-6 w-6 text-saas-purple" />,
-      title: "Smart Billing Tools",
-      description: "Automate recurring billing with customizable subscription plans and flexible payment options."
+      icon: <Activity className="h-6 w-6 text-saas-purple" />,
+      title: "Always Active Status",
+      description: "Maintain an active status on all your messaging platforms, even when you're away from your desk."
     },
     {
-      icon: <BarChart3 className="h-6 w-6 text-saas-purple" />,
-      title: "Revenue Analytics",
-      description: "Get actionable insights on your recurring revenue with detailed analytics and reporting."
+      icon: <MessageCircle className="h-6 w-6 text-saas-purple" />,
+      title: "Multi-Platform Support",
+      description: "Works with Slack, Microsoft Teams, Gmail Chat, Discord, and most enterprise messaging platforms."
     },
     {
-      icon: <RefreshCw className="h-6 w-6 text-saas-purple" />,
-      title: "Reduce Churn",
-      description: "Smart retention features that help identify at-risk customers and reduce subscription cancellations."
+      icon: <Clock className="h-6 w-6 text-saas-purple" />,
+      title: "Custom Schedules",
+      description: "Set your active hours and let AlwaysActive handle the rest, with automatic breaks when needed."
     },
     {
-      icon: <Users className="h-6 w-6 text-saas-purple" />,
-      title: "Customer Management",
-      description: "Manage all your subscribers in one place with detailed profiles and subscription history."
+      icon: <Zap className="h-6 w-6 text-saas-purple" />,
+      title: "Lightweight Client",
+      description: "Our desktop app runs silently in the background with minimal CPU and memory usage."
     },
     {
-      icon: <ShieldCheck className="h-6 w-6 text-saas-purple" />,
-      title: "Secure Payments",
-      description: "PCI-compliant payment processing with advanced fraud protection for your peace of mind."
+      icon: <Shield className="h-6 w-6 text-saas-purple" />,
+      title: "Privacy Focused",
+      description: "We never access your messages or personal data - we only simulate mouse movements and keyboard activity."
     },
     {
       icon: <CheckCircle2 className="h-6 w-6 text-saas-purple" />,
-      title: "Easy Integration",
-      description: "Seamlessly integrate with your existing systems through our developer-friendly API."
+      title: "Easy Setup",
+      description: "Install in minutes with our simple setup wizard. No technical knowledge required."
     }
   ];
 
@@ -56,10 +56,10 @@ const Features = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">
-            Powerful Features for <span className="gradient-text">Subscription Success</span>
+            Stay Connected with <span className="gradient-text">AlwaysActive</span>
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Everything you need to launch, manage, and scale your subscription business
+            Everything you need to maintain an active presence while working remotely
           </p>
         </div>
         

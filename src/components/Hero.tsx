@@ -10,10 +10,10 @@ const Hero = () => {
           <div className="w-full lg:w-1/2 mb-12 lg:mb-0">
             <div className="animate-fade-up" style={{ animationDelay: '0.1s' }}>
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight">
-                Simplify Subscription <span className="gradient-text">Management</span> For Your Business
+                Stay <span className="gradient-text">Always Active</span> In Your Remote Workspace
               </h1>
               <p className="text-lg md:text-xl text-gray-600 mb-8 md:pr-12">
-                Unlock recurring revenue with our powerful subscription management platform. Billing, analytics, and customer management in one place.
+                Keep your status active on Slack, Teams, Gmail Chat, and other platforms. Never appear idle, even when you step away from your desk.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <Button className="btn-gradient text-lg py-6 px-8">
@@ -21,7 +21,7 @@ const Hero = () => {
                   <ArrowRight className="ml-2 h-5 w-5" />
                 </Button>
                 <Button variant="outline" className="border-saas-purple text-saas-purple hover:bg-saas-purple hover:text-white text-lg py-6 px-8">
-                  View Demo
+                  How It Works
                 </Button>
               </div>
               <div className="mt-8 flex items-center">
@@ -33,7 +33,7 @@ const Hero = () => {
                   ))}
                 </div>
                 <p className="ml-4 text-sm text-gray-600">
-                  <span className="font-semibold">500+</span> businesses trust us
+                  <span className="font-semibold">2,500+</span> remote workers trust us
                 </p>
               </div>
             </div>
@@ -42,16 +42,16 @@ const Hero = () => {
             <div className="relative z-10 animate-fade-in" style={{ animationDelay: '0.3s' }}>
               <div className="bg-white rounded-2xl shadow-xl overflow-hidden border border-gray-100">
                 <div className="bg-gradient-to-r from-saas-purple to-saas-purple-dark p-6 text-white">
-                  <h3 className="text-2xl font-bold">Dashboard Preview</h3>
-                  <p>Manage your subscriptions effortlessly</p>
+                  <h3 className="text-2xl font-bold">AlwaysActive Dashboard</h3>
+                  <p>Monitor your active status across platforms</p>
                 </div>
                 <div className="p-6">
                   <div className="flex justify-between items-center mb-6">
-                    <h4 className="font-semibold text-lg">Monthly Revenue</h4>
-                    <span className="text-green-500 font-bold">+12.5%</span>
+                    <h4 className="font-semibold text-lg">Active Time Today</h4>
+                    <span className="text-green-500 font-bold">8h 12m</span>
                   </div>
                   <div className="h-24 bg-gray-100 rounded-lg mb-6 flex items-end p-2">
-                    {[35, 45, 30, 60, 75, 50, 65].map((height, i) => (
+                    {[65, 75, 90, 85, 95, 80, 70].map((height, i) => (
                       <div
                         key={i}
                         className="w-1/7 h-full flex items-end mx-1"
@@ -65,12 +65,12 @@ const Hero = () => {
                   </div>
                   <div className="grid grid-cols-2 gap-4 mb-4">
                     <div className="bg-gray-50 p-4 rounded-lg">
-                      <p className="text-gray-500 text-sm">Active Subscribers</p>
-                      <p className="text-xl font-bold">2,548</p>
+                      <p className="text-gray-500 text-sm">Platforms Active</p>
+                      <p className="text-xl font-bold">4</p>
                     </div>
                     <div className="bg-gray-50 p-4 rounded-lg">
-                      <p className="text-gray-500 text-sm">Avg. Revenue</p>
-                      <p className="text-xl font-bold">$42.8</p>
+                      <p className="text-gray-500 text-sm">Active Since</p>
+                      <p className="text-xl font-bold">8:00 AM</p>
                     </div>
                   </div>
                 </div>
