@@ -2,9 +2,9 @@
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import { Button } from "@/components/ui/button";
-import { Download, Windows, Apple, Terminal } from "lucide-react";
+import { Download, MonitorIcon, Apple, Terminal } from "lucide-react";
 
-const Download = () => {
+const DownloadPage = () => {
   return (
     <div className="min-h-screen">
       <Navbar />
@@ -22,7 +22,7 @@ const Download = () => {
               <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12">
                 <div className="bg-white rounded-lg shadow-md p-8 border border-gray-100 hover:shadow-lg transition-shadow">
                   <div className="flex justify-center mb-4">
-                    <Windows className="w-16 h-16 text-saas-purple" />
+                    <MonitorIcon className="w-16 h-16 text-saas-purple" />
                   </div>
                   <h3 className="text-xl font-bold mb-2">Windows</h3>
                   <p className="text-gray-600 mb-4">Compatible with Windows 10 and 11</p>
@@ -110,4 +110,4 @@ const Download = () => {
   );
 };
 
-export default Download;
+export default DownloadPage;
