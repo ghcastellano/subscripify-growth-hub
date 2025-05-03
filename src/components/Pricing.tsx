@@ -9,8 +9,8 @@ const Pricing = () => {
   const plans = [
     {
       name: "Starter",
-      monthlyPrice: 29,
-      annualPrice: 19,
+      monthlyPrice: 2,
+      annualPrice: 20,
       description: "Perfect for small businesses just getting started",
       features: [
         "Up to 500 subscribers",

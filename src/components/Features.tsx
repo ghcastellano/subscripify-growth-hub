@@ -25,10 +25,6 @@ const Features = () => {
     title: "Multi-Platform Support",
     description: "Works with Slack, Microsoft Teams, Gmail Chat, Discord, and most enterprise messaging platforms."
   }, {
-    icon: <Clock className="h-6 w-6 text-saas-purple" />,
-    title: "Custom Schedules",
-    description: "Set your active hours and let AlwaysActive handle the rest, with automatic breaks when needed."
-  }, {
     icon: <Shield className="h-6 w-6 text-saas-purple" />,
     title: "Privacy Focused",
     description: "We never access your messages or personal data - we only simulate mouse movements and keyboard activity."
