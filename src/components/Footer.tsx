@@ -35,23 +35,15 @@ const Footer = () => {
             </ul>
           </div>
           
-          <div>
-            <h4 className="font-bold text-lg mb-4">Resources</h4>
-            <ul className="space-y-2">
-              <li><a href="#" className="text-gray-600 hover:text-saas-purple transition-colors">Documentation</a></li>
-              <li><a href="#" className="text-gray-600 hover:text-saas-purple transition-colors">Blog</a></li>
-              <li><a href="#" className="text-gray-600 hover:text-saas-purple transition-colors">Case Studies</a></li>
-              <li><a href="#" className="text-gray-600 hover:text-saas-purple transition-colors">Help Center</a></li>
-            </ul>
-          </div>
+          
           
           <div>
-            <h4 className="font-bold text-lg mb-4">Company</h4>
+            
             <ul className="space-y-2">
-              <li><a href="#" className="text-gray-600 hover:text-saas-purple transition-colors">About</a></li>
-              <li><a href="#" className="text-gray-600 hover:text-saas-purple transition-colors">Careers</a></li>
-              <li><a href="#" className="text-gray-600 hover:text-saas-purple transition-colors">Contact</a></li>
-              <li><a href="#" className="text-gray-600 hover:text-saas-purple transition-colors">Privacy Policy</a></li>
+              
+              
+              
+              
             </ul>
           </div>
         </div>
