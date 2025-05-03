@@ -25,7 +25,7 @@ const Pricing = () => {
     {
       name: "Remote Worker Always Active",
       monthlyPrice: 3,
-      annualPrice: 30,
+      annualPrice: 2,
       description: "For remote workers that want to stay ALWAYS ACTIVE",
       features: [
         "Keep your status Always Active on Slack, Teams, Gmail Chat, and other platforms"
