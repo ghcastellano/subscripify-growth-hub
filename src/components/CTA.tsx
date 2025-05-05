@@ -1,11 +1,8 @@
-
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Activity } from "lucide-react";
 import { Link } from "react-router-dom";
-
 const CTA = () => {
-  return (
-    <section className="py-20 bg-gradient-to-r from-saas-purple to-saas-blue text-white">
+  return <section className="py-20 bg-gradient-to-r from-saas-purple to-saas-blue text-white">
       <div className="container mx-auto px-4">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-6">
@@ -28,13 +25,9 @@ const CTA = () => {
             </Link>
           </div>
           
-          <p className="mt-6 text-sm opacity-80">
-            No credit card required. 7-day free trial.
-          </p>
+          
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default CTA;
