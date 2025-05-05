@@ -6,7 +6,7 @@ const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   return <header className="fixed top-0 left-0 w-full bg-white/90 backdrop-blur-md z-50 py-4 shadow-sm">
       <div className="container mx-auto flex justify-between items-center">
-        <Link to="/" className="text-xl font-bold gradient-text">CoffeeBreak</Link>
+        <Link to="/" className="text-xl font-bold gradient-text">Always Available</Link>
         
         {/* Desktop Navigation */}
         <nav className="hidden md:flex items-center space-x-8">
