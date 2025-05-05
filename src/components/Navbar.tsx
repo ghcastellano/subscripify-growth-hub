@@ -6,14 +6,14 @@ const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   return <header className="fixed top-0 left-0 w-full bg-white/90 backdrop-blur-md z-50 py-4 shadow-sm">
       <div className="container mx-auto flex justify-between items-center">
-        <Link to="/" className="text-xl font-bold gradient-text">Always Active</Link>
+        <Link to="/" className="text-xl font-bold gradient-text">CoffeeBreak</Link>
         
         {/* Desktop Navigation */}
         <nav className="hidden md:flex items-center space-x-8">
           <Link to="/" className="text-gray-700 hover:text-saas-purple transition-colors">Home</Link>
           <a href="#features" className="text-gray-700 hover:text-saas-purple transition-colors">Features</a>
           <a href="#pricing" className="text-gray-700 hover:text-saas-purple transition-colors">Pricing</a>
-          
+          <a href="#testimonials" className="text-gray-700 hover:text-saas-purple transition-colors">Testimonials</a>
           <a href="#faq" className="text-gray-700 hover:text-saas-purple transition-colors">FAQ</a>
         </nav>
         
