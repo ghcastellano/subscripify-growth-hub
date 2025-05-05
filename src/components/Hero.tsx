@@ -38,14 +38,13 @@ const Hero = () => {
           }}>
               <div className="bg-white rounded-2xl shadow-xl overflow-hidden border border-gray-100">
                 <div className="bg-gradient-to-r from-saas-purple to-saas-purple-dark p-6 text-white">
-                  <h3 className="text-2xl font-bold">Always Available</h3>
-                  <p>
-                </p>
+                  <h3 className="text-2xl font-bold">AlwaysActive Dashboard</h3>
+                  <p>Monitor your active status across platforms</p>
                 </div>
                 <div className="p-6">
                   <div className="flex justify-between items-center mb-6">
                     <h4 className="font-semibold text-lg">Active Time Today</h4>
-                    <span className="text-green-500 font-bold">8h</span>
+                    <span className="text-green-500 font-bold">8h 12m</span>
                   </div>
                   <div className="h-24 bg-gray-100 rounded-lg mb-6 flex items-end p-2">
                     {[65, 75, 90, 85, 95, 80, 70].map((height, i) => <div key={i} className="w-1/7 h-full flex items-end mx-1">
